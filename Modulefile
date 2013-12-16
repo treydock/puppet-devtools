@@ -1,0 +1,8 @@
+name    'leonardothibes-devtools'
+version '1.0.0'
+author 'leonardothibes'
+license 'MIT'
+summary 'A Puppet module that installs all necessary packages for compiling basic software.'
+description 'A Puppet module that installs all necessary packages for compiling basic software.'
+source 'git://github.com/leonardothibes/puppet-devtools.git'
+project_page 'http://github.com/leonardothibes/puppet-devtools'
