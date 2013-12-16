@@ -1,6 +1,6 @@
-name    'leonardothibes-devtools'
-version '1.0.0'
+name   'leonardothibes-devtools'
 author 'leonardothibes'
+version '1.0.0'
 license 'MIT'
 summary 'A Puppet module that installs all necessary packages for compiling basic software.'
 description 'A Puppet module that installs all necessary packages for compiling basic software.'
