@@ -17,6 +17,15 @@ node default {
 }
 ```
 
+Uninstall devtools
+```
+node default {
+	class {'devtools':
+		ensure => absent,
+	}
+}
+```
+
 Contact
 -------
 
