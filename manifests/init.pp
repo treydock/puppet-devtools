@@ -1,5 +1,5 @@
 class devtools(
-	$ensure => 'latest'
+	$ensure = 'latest'
 ) inherits devtools::params {
 	package {$devtools::params::packages: ensure => $ensure}
 }
