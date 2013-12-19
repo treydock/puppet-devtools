@@ -5,20 +5,20 @@ A Puppet module that installs all necessary packages for compiling basic softwar
 
 ## Sample Usage
 Install devtools and use the provided configuration defaults
-```
+```puppet
 node default {
 	class {'devtools':}
 }
 ```
 or
-```
+```puppet
 node default {
 	include devtools
 }
 ```
 
 Uninstall devtools
-```
+```puppet
 node default {
 	class {'devtools':
 		ensure => absent,
