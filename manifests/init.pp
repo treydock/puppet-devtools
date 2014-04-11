@@ -1,5 +1,13 @@
-class devtools(
-	$ensure = 'latest'
+# == Class: devtools
+#
+class devtools (
+  $ensure = 'latest',
+  $packages = $devtools::params::packages
 ) inherits devtools::params {
-	package {$devtools::params::packages: ensure => $ensure}
+
+  include gcc
+  include git
+
+  ensure_resource('package', $packages, {'ensure' => $ensure})
+
 }
