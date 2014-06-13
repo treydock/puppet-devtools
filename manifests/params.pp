@@ -29,6 +29,7 @@ class devtools::params {
         'rcs',
         'redhat-rpm-config',
         'rpm-build',
+        'rpmdevtools',
         'subversion',
         'swig',
         'systemtap',

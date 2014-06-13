@@ -1,7 +1,7 @@
 # == Class: devtools
 #
 class devtools (
-  $ensure = 'latest',
+  $ensure = 'present',
   $packages = $devtools::params::packages
 ) inherits devtools::params {
 

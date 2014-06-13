@@ -13,7 +13,7 @@ describe 'devtools' do
   it { should contain_class('gcc') }
   it { should contain_class('git') }
 
-  it { should have_package_resource_count(30) }
+  it { should have_package_resource_count(31) }
 
   [
     'autoconf',
@@ -41,10 +41,11 @@ describe 'devtools' do
     'rcs',
     'redhat-rpm-config',
     'rpm-build',
+    'rpmdevtools',
     'subversion',
     'swig',
     'systemtap',
   ].each do |p|
-    it { should contain_package(p).with_ensure('latest') }
+    it { should contain_package(p).with_ensure('present') }
   end
 end

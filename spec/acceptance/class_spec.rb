@@ -38,6 +38,7 @@ describe 'devtools class:' do
         'rcs',
         'redhat-rpm-config',
         'rpm-build',
+        'rpmdevtools',
         'subversion',
         'swig',
         'systemtap',
