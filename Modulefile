@@ -7,5 +7,5 @@ description 'A Puppet module that installs all necessary packages for compiling 
 source 'git://github.com/leonardothibes/puppet-devtools.git'
 project_page 'http://github.com/leonardothibes/puppet-devtools'
 dependency 'puppetlabs/stdlib', '>=2.6.0'
-dependency 'puppetlabs/git'
-dependency 'puppetlabs/gcc', '0.1.x'
+dependency 'puppetlabs/git', '0.x'
+dependency 'puppetlabs/gcc', '>=0.2.0'

@@ -28,7 +28,6 @@ describe 'devtools' do
     'doxygen',
     'elfutils',
     'flex',
-    'gcc-c++',
     'gcc-gfortran',
     'gettext',
     'indent',

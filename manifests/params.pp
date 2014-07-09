@@ -16,7 +16,6 @@ class devtools::params {
         'doxygen',
         'elfutils',
         'flex',
-        'gcc-c++',
         'gcc-gfortran',
         'gettext',
         'indent',
