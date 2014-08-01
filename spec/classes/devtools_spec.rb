@@ -12,6 +12,7 @@ describe 'devtools' do
 
   it { should contain_class('gcc') }
   it { should contain_class('git') }
+  it { should contain_class('make') }
 
   it { should have_package_resource_count(31) }
 
@@ -33,7 +34,6 @@ describe 'devtools' do
     'indent',
     'intltool',
     'libtool',
-    'make',
     'patch',
     'patchutils',
     'pkgconfig',

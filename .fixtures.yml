@@ -9,5 +9,6 @@ fixtures:
     git:
       repo: git://github.com/puppetlabs/puppetlabs-git.git
       ref: 0.1.0
+    make: git://github.com/Element84/puppet-make.git
   symlinks:
     devtools: "#{source_dir}"

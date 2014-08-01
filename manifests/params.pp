@@ -21,7 +21,6 @@ class devtools::params {
         'indent',
         'intltool',
         'libtool',
-        'make',
         'patch',
         'patchutils',
         'pkgconfig',
@@ -37,9 +36,6 @@ class devtools::params {
     'Debian': {
       $packages = [
         'build-essential',
-        'gcc',
-        'g++',
-        'make',
         'automake',
         'autoconf',
         'bison',

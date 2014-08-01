@@ -21,6 +21,7 @@ RSpec.configure do |c|
       on host, puppet('module', 'install', 'puppetlabs/stdlib', '--version', "'>=2.6.0'"), { :acceptable_exit_codes => [0,1] }
       on host, puppet('module', 'install', 'puppetlabs/gcc', '--version', "'>=0.2.0'"), { :acceptable_exit_codes => [0,1] }
       on host, puppet('module', 'install', 'puppetlabs/git', '--version', "'0.x'"), { :acceptable_exit_codes => [0,1] }
+      on host, puppet('module', 'install', 'mhuffnagle/make', '--version', "'0.x'"), { :acceptable_exit_codes => [0,1] }
     end
   end
 end
