@@ -32,6 +32,37 @@ class devtools::params {
         'swig',
         'systemtap',
       ]
+      $desktop_base_packages = [
+        'xorg-x11-docs',
+      ]
+      $desktop_runtime_packages = [
+        'atk',
+        'cairo',
+        'dbus',
+        'fontconfig',
+        'freetype',
+        'glib2',
+        'gtk2',
+        'libICE',
+        'libSM',
+        'libX11',
+        'libXext',
+        'libXft',
+        'libXi',
+        'libXrender',
+        'libXt',
+        'libXtst',
+        'libpng',
+        'libxml2',
+        'mesa-libGL',
+        'mesa-libGLU',
+        'mesa-libGLw',
+        'pango',
+        'qt',
+        'qt3',
+      ]
+      $desktop_packages     = union($desktop_base_packages, $desktop_runtime_packages)
+      $desktop_dev_packages = suffix($desktop_runtime_packages, '-devel')
     }
     'Debian': {
       $packages = [
